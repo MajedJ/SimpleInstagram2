@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description.."
+        android:ems="10"
+        />
+
+    <Button
+        android:id="@+id/capture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snap a photo"
+        android:background="@android:color/holo_red_light"
+        />
+
+    <ImageView
+        android:id="@+id/ivPostImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+
+        />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+
+        android:text="Log out" />
+
+</LinearLayout>
